@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f7fa, #d7e1ec); /* Smooth background */
+    color: #333; /* Text color */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff; /* White background for main content */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue for headings */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+/* Paragraph and Image Caption */
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Image Styling */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+    margin: 20px 0;
+    list-style-type: none; /* Removes bullet points */
+}
+
+li {
+    background: #ecf0f1; /* Subtle light-gray background */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #2980b9; /* Highlighted years in blue */
+}
+
+/* Blockquote Styling */
+blockquote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-left: 4px solid #3498db;
+    color: #7f8c8d;
+    max-width: 600px;
+    background: #f8f9fa; /* Subtle light background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
